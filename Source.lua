@@ -32,8 +32,8 @@ function Library:CreateWindow(options)
     G2L["PlayersScrollingFrame_3"]["BorderSizePixel"] = 0
     G2L["PlayersScrollingFrame_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
     G2L["PlayersScrollingFrame_3"]["Name"] = [[PlayersScrollingFrame]]
-    G2L["PlayersScrollingFrame_3"]["Size"] = UDim2.new(0, 244, 0, 332)
-    G2L["PlayersScrollingFrame_3"]["Position"] = UDim2.new(0, 436, 0, 94)
+    G2L["PlayersScrollingFrame_3"]["Size"] = UDim2.new(0.345, 0, 0.744, 0)
+    G2L["PlayersScrollingFrame_3"]["Position"] = UDim2.new(0.618, 0, 0.211, 0)
     G2L["PlayersScrollingFrame_3"]["BackgroundTransparency"] = 1
 
     -- Players.stalou0406.PlayerGui.ScreenGui.main.PlayersScrollingFrame.UIListLayout
@@ -69,8 +69,8 @@ function Library:CreateWindow(options)
     G2L["ButtonsScrollingFrame_7"]["CanvasSize"] = UDim2.new(0, 0, 0.7, 0)
     G2L["ButtonsScrollingFrame_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
     G2L["ButtonsScrollingFrame_7"]["Name"] = [[ButtonsScrollingFrame]]
-    G2L["ButtonsScrollingFrame_7"]["Size"] = UDim2.new(0, 388, 0, 246)
-    G2L["ButtonsScrollingFrame_7"]["Position"] = UDim2.new(0, 14, 0, 180)
+    G2L["ButtonsScrollingFrame_7"]["Size"] = UDim2.new(0.55, 0, 0.552, 0)
+    G2L["ButtonsScrollingFrame_7"]["Position"] = UDim2.new(0.02, 0, 0.404, 0)
     G2L["ButtonsScrollingFrame_7"]["BackgroundTransparency"] = 1
 
     -- Players.stalou0406.PlayerGui.ScreenGui.main.ButtonsScrollingFrame.UIListLayout
@@ -102,6 +102,12 @@ function Library:CreateWindow(options)
     G2L["cmdsbox_a"]["TextWrapped"] = true
     G2L["cmdsbox_a"]["TextSize"] = 35
     G2L["cmdsbox_a"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51)
+    G2L["cmdsbox_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+    G2L["cmdsbox_a"]["PlaceholderText"] = [[Enter Command]]
+    G2L["cmdsbox_a"]["Size"] = UDim2.new(0.547, 0, 0.166, 0)
+    G2L["cmdsbox_a"]["Position"] = UDim2.new(0.02, 0, 0.193, 0)
+    G2L["cmdsbox_a"]["Text"] = [[]]
+    G2L["cmdsbox_a"]["BackgroundTransparency"] = 0.351, 51, 51)
     G2L["cmdsbox_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
     G2L["cmdsbox_a"]["PlaceholderText"] = [[Enter Command]]
     G2L["cmdsbox_a"]["Size"] = UDim2.new(0, 386, 0, 74)
