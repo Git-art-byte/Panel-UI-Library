@@ -2,7 +2,7 @@
 
 ## Installation
 ```lua
-local Library = loadstring(game:HttpGet("your-github-raw-url"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Git-art-byte/Panel-UI-Library/main/Source.lua"))()
 ```
 
 ## Window
