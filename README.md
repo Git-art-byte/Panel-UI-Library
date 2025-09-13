@@ -8,7 +8,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Git-a
 ## Window
 ```lua
 local Window = Library:CreateWindow({
-    Title = "My Admin Panel"
+    Title = "My Admin Panel",
+    Size = UDim2.new(0, 800, 0, 600) -- Custom size
 })
 ```
 
